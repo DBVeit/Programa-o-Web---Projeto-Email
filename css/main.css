@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Mail */
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color: white;
+}
+
+table tr td{
+	padding: 15px;
+	width: 150px;
+}
+
+a {
+	text-decoration:none;
+	color: white;
+}
+#barraLower tr:first-child{
+	background-color: #000f1a;
+	color: white;
+}
+
+#menu tr:nth-child(2n){
+	background-color: #003d66;
+	color: white;
+}
+
+#menu tr:nth-child(2n+1){
+	background-color: #000f1a;
+	color: white;
+}
+
+
+#menu{
+	font-family: "Times";
+}
+
+#menu tr:first-child{
+	background-color: #000f1a;
+	color: white;
+}
+
+/*#ButtonImg
+{
+	font-size:10%;
+	height:2%;
+	width:2%;
+}
+
+#ButtonImg img
+{
+	height:50%;
+	background-size: cover;
+	vertical-align:middle;
+}
+*/
+
+
+
+html{
+	min-height:100%;
+}
+
+body{
+	background-image:url(../img/blue.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+#newMessage {
+    background-color: #000f1a; /* Same color */
+    border: none;
+    color: white;
+    padding: 2px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    font-family: "Times";
+}
+
+input{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: solid 1px #CCC;
+	border-radius: 2px;
+	margin-top: 3px;
+	font-family: "Verdana";
+}
+
+div#barra {
+	width: 100%;
+	height: 50px;
+	background-color: #ddd;
+}
+
+div#barraLower {
+	width: 100%;
+	height: 60px;
+	background-color: #000f1a;
+}
+div#barraTop {
+	width: 100%;
+	height: 60px;
+	background-color: #e3e7eb;
+}
+
+/* add */
+
+section.e-mail {
+	display: inline;
+    background-color: white;
+    float: right;
+    width: 76%;
+    height: 536px;
+    border: none;
+}
+
+div#listarEmail {
+    overflow-y: scroll;
+    width: 100%;
+    height: 536px;
+}
+
+section.esquerda {
+	background-color: #0D0045;
+    float: left;
+    width: 24%; 
+    height: 706px;
+    border: none;
+}
+
+#emails{
+	
+    background-color: white;
+    float: right;
+    width: 100%;
+
+}
